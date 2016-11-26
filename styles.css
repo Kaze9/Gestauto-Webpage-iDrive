@@ -1,0 +1,74 @@
+body {
+  margin-top: 0;
+  background-color: #252B2E;
+}
+
+.mainContent {
+  width: 95%;
+  margin: 0 auto;
+  background-color: white;
+  z-index: 0;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+}
+
+.headerLogo {
+  display: inline-block;
+  z-index: 9;
+  font-family: 'orev-bolditalic', sans-serif;
+  font-size: 3rem;
+  font-size: 50pt;
+  float: left;
+  text-transform: uppercase;
+  margin: 10px 0 10px 10px;
+}
+
+nav {
+  width: 95vw;
+  height: 80px;
+  font-family: 'verbextrabold', sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  vertical-align: text-bottom;
+  color: red;
+  text-transform: uppercase;
+  z-index: 10;
+  background-color: black;
+  opacity: 0.7;
+}
+nav .navlist li {
+  display: inline;
+  padding-right: 5%;
+  list-style: none;
+}
+nav .navlist li a {
+  letter-spacing: 0.4em;
+}
+nav .navlist li a span {
+  border-bottom: 3px solid transparent;
+  transition: 1s;
+}
+nav .navlist li a:visited, nav .navlist li a:link {
+  text-decoration: none;
+  color: inherit;
+}
+nav .navlist li :hover {
+  border-bottom: 3px solid #2D7AAD;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.hero {
+  width: inherit;
+}
+.hero img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  float: none;
+}

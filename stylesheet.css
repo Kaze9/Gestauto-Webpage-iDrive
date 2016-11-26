@@ -1,54 +1,69 @@
 body {
-	margin-top: 0px;
+	margin-top: 0;
+	background-color: #252B2E;
 }
 
-body, #hero {
-	margin-left: 0px;
-	margin-right: 0px;
+.hero {
+	width: inherit;
+}
+
+.hero img {
+	display: block;
+	width: 50%;
+	margin: 0 0 0 40%;
+	float: none;
+}
+
+.mainContent {
+	width: 95%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	padding: 15px 0;
+}
+
+.headerLogo {
+	font-family: 'orev-bolditalic', sans-serif;
+	font-size: 3rem;
+	font-size: 50pt;
+	float: left;
+	text-transform: uppercase;
+	margin: 10px 0 10px 10px;
 }
 
 nav {
-	font-family: 'verbextrabold';
+	font-family: 'verbextrabold', sans-serif;
 	text-align: center;
 	font-size: 1.2em;
+	vertical-align: text-bottom;
 	color: #333333;
 	text-transform: uppercase;
-	margin-bottom: 0px;
-	padding-bottom: 2%;
-}
-
-nav, ul{
-	padding-top: 0px;
-	/*margin-bottom: 10px;*/
-}
-
-img.logo {
-	margin-bottom: -40px;
+	margin: 10px 10px 10px 0;
+	float: right;
 }
 
 hr {
-	margin-top: 0px;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
  ul.navlist>li {
 	display: inline;
 	padding-right: 5%;
 	list-style: none;
-	/*margin-right: -0.4em;*/
-	padding-bottom: 20px;
 }
 
 ul.navlist>li>a {
 	letter-spacing: 0.4em;
-	margin-right: -0.6em;
 	border-bottom: 3px solid transparent;
 	transition: 1s;
 }
 
 ul.navlist>li>a>span {
-	letter-spacing: 0.4em;
-	margin-right: -0.4em;
 	border-bottom: 3px solid transparent;
 	transition: 1s;
 }
@@ -72,7 +87,7 @@ div.article {
 }
 
 h1 {
-	font-family: "verbextrabold";
+	font-family: "verbextrabold", sans-serif;
 	color: #333333;
 	font-size: 4em;
 	line-height: 1em;
@@ -80,19 +95,20 @@ h1 {
 }
 
 h2 {
-	font-family: "verbsemibold";
+	font-family: "verbsemibold", sans-serif;
 	color: #999999;
 	margin-top: 0px;
 }
 
 p {
-	font-family: "verbmedium";
+	font-family: "verbmedium", sans-serif;
 	font-size: 1.2em;
-
+	line-height: 1.4em;
+	margin: 2rem 0;
 }
 
 div.footer {
-	font-family: "verbextrabold";
+	font-family: "verbextrabold", sans-serif;
 	color: #333333;
 	width: 60%;
 	margin-left: 20%;
@@ -104,9 +120,10 @@ img.footlogo {
 	width: 80px;
 }
 div.footnav>ul>li {
-	font-family: 'verbextrabold';
+	font-family: 'verbextrabold', sans-serif;
 	list-style: none;
-	margin-top: 0px;
+	margin-top: 0;
 	letter-spacing: 0.2em;
 	color: #333333;
 }
+
